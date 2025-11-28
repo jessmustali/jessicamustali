@@ -101,8 +101,13 @@ export const PersonalWebsite = () => {
                       X
                     </a>
                   </div>}
+                {activeNote.id === 'publications' && <div className="text-xs" data-magicpath-id="24" data-magicpath-path="PersonalWebsite.tsx">
+                    <a href="https://scholar.google.com/citations?user=g5BOUx0AAAAJ&hl=it" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 underline transition-colors" data-magicpath-id="25" data-magicpath-path="PersonalWebsite.tsx">
+                      Google Scholar
+                    </a>
+                  </div>}
               </div>
-              <div className="text-gray-700 leading-relaxed text-sm" data-magicpath-id="24" data-magicpath-path="PersonalWebsite.tsx">
+              <div className="text-gray-700 leading-relaxed text-sm" data-magicpath-id="26" data-magicpath-path="PersonalWebsite.tsx">
                 {renderContent()}
               </div>
             </div>

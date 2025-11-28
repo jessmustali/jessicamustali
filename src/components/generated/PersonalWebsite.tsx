@@ -80,7 +80,7 @@ export const PersonalWebsite = () => {
       {/* Sidebar */}
       <div className="w-48 border-r border-gray-200 flex flex-col" data-magicpath-id="24" data-magicpath-path="PersonalWebsite.tsx">
         <div className="p-4 border-b border-gray-200" data-magicpath-id="25" data-magicpath-path="PersonalWebsite.tsx">
-          <h1 className="text-lg font-semibold" data-magicpath-id="26" data-magicpath-path="PersonalWebsite.tsx">Notes</h1>
+          <h1 className="text-lg font-semibold" data-magicpath-id="26" data-magicpath-path="PersonalWebsite.tsx">Jessica Mustali</h1>
         </div>
 
         <div className="flex-1 overflow-y-auto" data-magicpath-id="27" data-magicpath-path="PersonalWebsite.tsx">

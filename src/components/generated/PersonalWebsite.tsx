@@ -18,13 +18,13 @@ const NOTES: Note[] = [{
   title: 'About me',
   content: <AboutSection data-magicpath-id="0" data-magicpath-path="PersonalWebsite.tsx" />
 }, {
-  id: 'awards',
-  title: 'Awards',
-  content: <AwardsSection data-magicpath-id="1" data-magicpath-path="PersonalWebsite.tsx" />
-}, {
   id: 'publications',
   title: 'Publications',
-  content: <PublicationsSection data-magicpath-id="2" data-magicpath-path="PersonalWebsite.tsx" />
+  content: <PublicationsSection data-magicpath-id="1" data-magicpath-path="PersonalWebsite.tsx" />
+}, {
+  id: 'awards',
+  title: 'Awards',
+  content: <AwardsSection data-magicpath-id="2" data-magicpath-path="PersonalWebsite.tsx" />
 }, {
   id: 'blogs',
   title: 'Blogs',

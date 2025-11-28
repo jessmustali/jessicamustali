@@ -89,10 +89,20 @@ export const PersonalWebsite = () => {
           duration: 0.12
         }} className="flex-1 overflow-y-auto" data-magicpath-id="17" data-magicpath-path="PersonalWebsite.tsx">
             <div className="max-w-xl mx-auto px-6 py-8" data-magicpath-id="18" data-magicpath-path="PersonalWebsite.tsx">
-              <h2 className="text-xs font-medium mb-6 text-gray-400 uppercase tracking-wide" data-magicpath-id="19" data-magicpath-path="PersonalWebsite.tsx">
-                {activeNote.title}
-              </h2>
-              <div className="text-gray-700 leading-relaxed text-sm" data-magicpath-id="20" data-magicpath-path="PersonalWebsite.tsx">
+              <div className="flex items-center justify-between mb-6" data-magicpath-id="19" data-magicpath-path="PersonalWebsite.tsx">
+                <h2 className="text-xs font-medium text-gray-400 uppercase tracking-wide" data-magicpath-id="20" data-magicpath-path="PersonalWebsite.tsx">
+                  {activeNote.title}
+                </h2>
+                {activeNote.id === 'about' && <div className="flex items-center gap-4 text-xs" data-magicpath-id="21" data-magicpath-path="PersonalWebsite.tsx">
+                    <a href="https://www.linkedin.com/in/jessica-mustali/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 underline transition-colors" data-magicpath-id="22" data-magicpath-path="PersonalWebsite.tsx">
+                      LinkedIn
+                    </a>
+                    <a href="https://x.com/JessicaMustali" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 underline transition-colors" data-magicpath-id="23" data-magicpath-path="PersonalWebsite.tsx">
+                      X
+                    </a>
+                  </div>}
+              </div>
+              <div className="text-gray-700 leading-relaxed text-sm" data-magicpath-id="24" data-magicpath-path="PersonalWebsite.tsx">
                 {renderContent()}
               </div>
             </div>

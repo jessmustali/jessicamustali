@@ -1,7 +1,7 @@
 import React from 'react';
 export const PublicationsSection = () => {
   return <div className="space-y-3" data-magicpath-id="0" data-magicpath-path="PublicationsSection.tsx">
-      <ul className="space-y-3" data-magicpath-id="1" data-magicpath-path="PublicationsSection.tsx">
+      <ul className="space-y-3 list-disc pl-4" data-magicpath-id="1" data-magicpath-path="PublicationsSection.tsx">
         <li data-magicpath-id="2" data-magicpath-path="PublicationsSection.tsx">
           Seal, S., Huynh, D. L., Chelbi, M., Khosravi, S., Kumar, A., Thieme, M., ... & Spjuth,
           O. (2025). AI Agents in Drug Discovery. <em data-magicpath-id="3" data-magicpath-path="PublicationsSection.tsx">arXiv preprint arXiv:2510.27130</em>. [

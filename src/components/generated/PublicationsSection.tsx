@@ -1,9 +1,22 @@
 import React from 'react';
 export const PublicationsSection = () => {
-  return <div className="space-y-2" data-magicpath-id="0" data-magicpath-path="PublicationsSection.tsx">
-      <p data-magicpath-id="1" data-magicpath-path="PublicationsSection.tsx">(preprint) AI agents for drug discovery</p>
-      <p data-magicpath-id="2" data-magicpath-path="PublicationsSection.tsx">paper in japan</p>
-      <p data-magicpath-id="3" data-magicpath-path="PublicationsSection.tsx">MSc thesis</p>
-      <p data-magicpath-id="4" data-magicpath-path="PublicationsSection.tsx">BSc thesis</p>
+  return <div className="space-y-3" data-magicpath-id="0" data-magicpath-path="PublicationsSection.tsx">
+      <ul className="list-disc pl-5 space-y-3" data-magicpath-id="1" data-magicpath-path="PublicationsSection.tsx">
+        <li data-magicpath-id="2" data-magicpath-path="PublicationsSection.tsx">
+          Seal, S., Huynh, D. L., Chelbi, M., Khosravi, S., Kumar, A., Thieme, M., ... & Spjuth, O. (2025). 
+          AI Agents in Drug Discovery. <em data-magicpath-id="3" data-magicpath-path="PublicationsSection.tsx">arXiv preprint arXiv:2510.27130</em>. [link]
+        </li>
+        <li data-magicpath-id="4" data-magicpath-path="PublicationsSection.tsx">
+          Mustali, J., Yasuda, I., Hirano, Y., Yasuoka, K., Gautieri, A., & Arai, N. (2023). 
+          Unsupervised deep learning for molecular dynamics simulations: a novel analysis of protein–ligand 
+          interactions in SARS-CoV-2 M pro. <em data-magicpath-id="5" data-magicpath-path="PublicationsSection.tsx">RSC advances</em>, 13(48), 34249-34261. [link]
+        </li>
+        <li data-magicpath-id="6" data-magicpath-path="PublicationsSection.tsx">
+          MSc thesis [link to open the pdf link in the browser]
+        </li>
+        <li data-magicpath-id="7" data-magicpath-path="PublicationsSection.tsx">
+          BSc thesis (Italian) [
+        </li>
+      </ul>
     </div>;
 };

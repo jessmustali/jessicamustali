@@ -18,9 +18,7 @@ const NOTES: Note[] = [{
         <p data-magicpath-id="3" data-magicpath-path="PersonalWebsite.tsx">
           In my last year of BSc I started doing academic research in the lab. I worked on engineering CSP peptides to inhibit communication of bacterial quorum sensing and biofilm formation, under the supervision of Prof. Monica Dettin and Paola Brun. Here is the link to the thesis (in Italian).
         </p>
-        <p data-magicpath-id="4" data-magicpath-path="PersonalWebsite.tsx">
-          In my first year of MSc, I was introduced to physics-based biological simulations, first with fundamental CFD and physics of biomass with Professor Gabriele Dubini, then applications in biomedical devices (Gaetano and Costantino), tissues and regenerative medicine (Fiore and Rasponi), cell mechanics (Monica Soncini), and nanomedicine (Cellesi and Gautieri).
-        </p>
+        <p data-magicpath-id="4" data-magicpath-path="PersonalWebsite.tsx">In my first year of MSc, I was introduced to physics-based biological simulations, first with fundamental CFD and physics of biomass with Professor Gabriele Dubini, then applications in biomedical devices (Gaetano and Costantino), tissues and regenerative medicine (Fiore and Rasponi), cell mechanics (Monica Soncini), and nanomedicine (Cellesi and Gautieri). Under the supervision of Professor Gautieri I started working on protein engineering and molecular dynamics simulations research. In the meantime I developed my passion for AI. I started learning about Deep Learning after neuroengineering classes with Pedrocchi and Cerveri.</p>
         <p data-magicpath-id="5" data-magicpath-path="PersonalWebsite.tsx">
           Under the supervision of Professor Gautieri I started working on protein engineering and molecular dynamics simulations research. In the meantime I developed my passion for AI. I started learning about Deep Learning after neuroengineering classes with Pedrocchi and Cerveri.
         </p>

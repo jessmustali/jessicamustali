@@ -57,8 +57,8 @@ export const PersonalWebsite = () => {
   };
 
   // @return
-  return <div className="flex h-screen w-full bg-white overflow-hidden font-sans text-gray-900 justify-center">
-      <div className="flex h-full w-full max-w-6xl relative">
+  return <div className="flex h-screen w-full bg-white overflow-hidden font-sans text-gray-900">
+      <div className="flex h-full mx-auto relative max-w-[60rem]">
         {/* Mobile Overlay */}
         {isMobile && sidebarOpen && (
           <div
@@ -67,7 +67,7 @@ export const PersonalWebsite = () => {
           />
         )}
 
-        {/* Sidebar */}
+      {/* Sidebar */}
         <div className={`${isMobile ? 'fixed left-0 top-0 h-full w-full z-50 transform transition-transform duration-300' : 'relative'} ${sidebarOpen ? 'translate-x-0' : isMobile ? '-translate-x-full' : ''} ${isMobile ? '' : 'w-40'} flex flex-col bg-white ${isMobile ? 'shadow-lg' : ''}`}>
           {isMobile && (
             <div className="px-4 pt-12 pb-5">
@@ -83,17 +83,17 @@ export const PersonalWebsite = () => {
             </div>
           )}
           <div className={`px-4 ${isMobile ? 'pt-0' : 'pt-20'} pb-5`}>
-            <h1 className="text-sm font-normal text-gray-900">Jessica Mustali</h1>
-          </div>
+          <h1 className="text-sm font-normal text-gray-900">Jessica Mustali</h1>
+        </div>
 
           <div className="flex-1 overflow-y-auto scroll-smooth [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             {NOTES.map(note => <button key={note.id} onClick={() => handleNoteClick(note.id)} className={`w-full text-left px-4 py-2 text-xs hover:text-gray-900 transition-colors ${activeNoteId === note.id ? 'text-gray-900' : 'text-gray-400'}`}>
-                {note.title}
-              </button>)}
-          </div>
+              {note.title}
+            </button>)}
         </div>
+      </div>
 
-        {/* Main Content */}
+      {/* Main Content */}
         <div className={`flex-1 flex flex-col bg-white h-full overflow-hidden ${isMobile ? 'ml-0 w-full' : 'ml-24'}`}>
         <AnimatePresence mode="wait">
           <motion.div key={activeNote.id} initial={{

@@ -21,7 +21,7 @@ export const AboutSection = () => {
       </p>
       <p>
         In my first year of MSc, I was introduced to physics-based biological simulations, first
-        with fundamental CFD and physics of biomass with Prof.Dubini, then
+        with fundamental CFD and physics of biomatter with Prof.Dubini, then
         applications in biomedical devices (Prof. De Gaetano and Costantino), tissues and regenerative
         medicine (Prof. Fiore and Rasponi), cell mechanics (Prof. Soncini), and nanomedicine (Prof. Cellesi
         and Gautieri). Under the supervision of Prof. Gautieri I started working on protein
